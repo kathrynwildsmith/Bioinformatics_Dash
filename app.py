@@ -43,9 +43,7 @@ with st.spinner('Fetching data from NCBI...'):
             if id_list:
                 ids_to_fetch = ",".join(id_list)
                 summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id={ids_to_fetch}&retmode=json"
-        
-                # Add a delay for the second call too, to be safe
-                time.sleep(0.5) 
+                time.sleep(1) 
                 summary_response = requests.get(summary_url).json()
 
                 # DEFENSIVE CHECK: Ensure 'result' exists
