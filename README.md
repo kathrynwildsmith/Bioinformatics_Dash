@@ -1,8 +1,7 @@
 # Bioinformatics_Dash
 
-# Bioinformatics Data Explorer
+[![Streamlit App](https://img.shields.io/badge/View-Live%20Demo-brightgreen?logo=streamlit)](https://kathrynwildsmith-bioinformatics-dash-app-krgdjd.streamlit.app/)
 
-[![Streamlit App](https://img.shields.io/badge/View-Live%20Demo-brightgreen?logo=streamlit)]([https://YOUR_STREAMLIT_APP_URL_HERE](https://kathrynwildsmith-bioinformatics-dash-app-krgdjd.streamlit.app/))
 
 ---
 
